@@ -155,7 +155,7 @@
 /**
  * mapやfilterを使った配列の処理
  */
-const nameArr = ["田中", "山田", "じゃけぇ"];
+// const nameArr = ["田中", "山田", "じゃけぇ"];
 // for (let index = 0; index < nameArr.length; index++) {
 //   console.log(`${index}番目は${nameArr[index]}`);
 // }
@@ -199,3 +199,27 @@ const nameArr = ["田中", "山田", "じゃけぇ"];
 //   return num1 + num2 > 100 ? '100を超えています!!' : '許容範囲内です';
 // }
 // console.log(checkSum(30, 60));
+
+/**
+ * 論理演算子
+ */
+
+// const flag1 = true;
+// const flag2 = true;
+
+// if (flag1 || flag2) {
+//   console.log("1か2はtrueになります");
+// }
+// if (flag1 && flag2) {
+//   console.log("1も2もtrueになります");
+// }
+
+//  || は左側がfalseなら右側を返す
+// const num = null;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// && は左側がtrueなら右側を返す
+// const num2 = null;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
